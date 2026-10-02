@@ -1,0 +1,8 @@
+S = input()
+length = len(S)
+S_len = (length > 2) and (length < 7)
+first_char = S[0] != "a"
+if (S_len or first_char):
+    print("Valid String")
+else: 
+    print("Not a Valid String")
