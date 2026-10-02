@@ -1,0 +1,6 @@
+num = input()
+Number = int(num[1:])
+if (Number < 30):
+    print("Ground Floor")
+else:
+    print("Not Ground Floor")
