@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+C = int(input())
+n1 = (A > 9) and (A < 21)
+n2 = (B > 9) and (B < 21)
+n3 = (C > 9) and (C < 21)
+if ((n1 or n2) or n3):
+    print("True")
+else:
+    print("False")
