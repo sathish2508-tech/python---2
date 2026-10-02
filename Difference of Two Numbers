@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+C = int(input())
+less_than = (((A - B) < 25) and ((B - C) < 25)) and ((C - A) < 25)
+if less_than:
+    print("Difference is less than 25")
+else:
+    print("Difference is not less than 25")
