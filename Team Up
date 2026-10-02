@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+greater = (A > 300) or (B > 300)
+less_than = (A + B) < 500
+if ((greater) and (less_than)):
+    print("Can team up")
+else:
+    print("Cannot team up")
