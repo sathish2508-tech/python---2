@@ -1,0 +1,5 @@
+N = int(input())
+if (N > 10):
+    print(N + 5)
+else:
+    print(N + 1)
