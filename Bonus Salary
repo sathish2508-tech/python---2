@@ -1,0 +1,7 @@
+Salary = int(input())
+Experience = int(input())
+Bonus = (5 / 100) * Salary
+if (Experience <= 5):
+    print("No Bonus")
+else:
+    print(Bonus)
