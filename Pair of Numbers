@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+Both = (A <= 1000) and (B <= 1000)
+Greater = B > 500
+if ((Both) or (Greater)):
+    print("Pair")
+else:
+    print("Not a Pair")
