@@ -1,0 +1,8 @@
+M = int(input())
+P = int(input())
+Both_sum = (M > 35) and (P > 35)
+Sum = (M + P) >= 100
+if (Both_sum or Sum):
+    print("Qualified")
+else:
+    print("Not Qualified")
