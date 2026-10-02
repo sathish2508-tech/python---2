@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+C = int(input())
+if ((A + B + C) == 180):
+    print("*" * 1)
+    print("*" * 2)
+    print("*" * 3)
+else: 
+    print("Not a Valid Triangle")
