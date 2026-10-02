@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+less_than = (A < 20) or (B < 20)
+sum = ((A + B) > 30) and ((A + B) < 50)
+if (less_than or sum):
+    print(A + B)
+else:
+    print(A)
+    print(B)
