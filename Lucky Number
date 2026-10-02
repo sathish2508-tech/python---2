@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+Equal = (A == 6) or (B == 6)
+Sum = (A + B) == 6
+Diff = ((A - B) == 6) or ((B - A) == 6)
+if (Equal or Sum or Diff): 
+    print("Lucky")
+else:
+    print("Not Lucky")
