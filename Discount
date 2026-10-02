@@ -1,0 +1,8 @@
+A = input()
+B = input()
+v1 = A[:3] == "DIS"
+v2 = B[:3] == "DIS"
+if (v1 or v2):
+    print("Discount")
+else:
+    print("No Discount")
