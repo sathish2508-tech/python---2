@@ -1,0 +1,6 @@
+N = int(input())
+remainder = ((N % 11) == 0) or ((N % 11) == 1)
+if remainder:
+    print("Special Eleven")
+else:
+    print("Normal Number")
