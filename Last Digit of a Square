@@ -1,0 +1,11 @@
+N = int(input())
+A = str(N)
+lenght = len(A) - 1 
+Square = N ** 2
+S = str(Square)
+lenght1 = len(S) - 1 
+Equal = int(A[lenght]) == int(S[lenght1])
+if Equal:
+    print("Equal")
+else:
+    print("Not Equal")
