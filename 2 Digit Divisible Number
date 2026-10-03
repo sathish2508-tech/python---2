@@ -1,0 +1,10 @@
+N = int(input())
+n1 = str(N)
+s1 = n1[0]
+s2 = n1[1]
+first_digit = (N % int(s1)) == 0
+second_digit = (N % int(s2)) == 0
+if (first_digit and second_digit):
+    print(N * 2)
+else:
+    print(N)
