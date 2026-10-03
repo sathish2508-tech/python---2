@@ -1,0 +1,7 @@
+N = int(input())
+T = N * 3
+Div = (T % 6) == 0
+if Div:
+    print(T)
+else:
+    print(N)
