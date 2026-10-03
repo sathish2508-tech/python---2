@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+E1 = A ** B 
+E2 = B ** A 
+if (E1 > E2):
+    print(E1)
+else:
+    print(E2)
