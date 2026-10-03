@@ -1,0 +1,6 @@
+A = int(input())
+B = int(input())
+Q = int(A / B )
+M = A % B 
+print(Q)
+print(M)
