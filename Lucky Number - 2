@@ -1,0 +1,10 @@
+N = int(input())
+S = str(N)
+div = (N % 9) == 0
+first_digit = int(S[0]) == 9
+second_digit = int(S[1]) == 9
+one_digit = first_digit or second_digit
+if (div or one_digit):
+    print("Lucky Number")
+else:
+    print("Unlucky Number")
