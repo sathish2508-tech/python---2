@@ -1,0 +1,11 @@
+N = int(input())
+n = str(N)
+first_digit = int(n[0]) == 7
+second_digit = int(n[1]) == 7
+One_digit = first_digit or second_digit
+Sum = (int(n[0]) + int(n[1])) == 7
+Div = (N % 7) == 0
+if ((One_digit or Sum) or Div):
+    print("Special Number")
+else:
+    print("Normal Number")
