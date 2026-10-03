@@ -1,0 +1,7 @@
+N = int(input())
+r1 = N % 4
+r2 = N % 5
+if (r1 > r2):
+    print(r1)
+else:
+    print(r2)
