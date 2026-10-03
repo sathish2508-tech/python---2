@@ -1,0 +1,8 @@
+N = int(input())
+S = str(N)
+L = len(S)
+E = ((int(S[0]) ** L) + (int(S[1]) ** L) + (int(S[2]) ** L)) == N 
+if E:
+    print("True")
+else:
+    print("False")
