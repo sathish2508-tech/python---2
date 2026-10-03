@@ -1,0 +1,10 @@
+S = input()
+char = S[0] + S[1] + S[2]
+S_char = char == "NXT"
+lenght = len(S)
+value = int(S[3:lenght])
+div = ((value % 2) == 0) or ((value % 7) == 0)
+if (S_char and div):
+    print("Special String")
+else:
+    print("Not a Special String")
