@@ -1,0 +1,3 @@
+N = int(input())
+C = N ** 3
+print(C)
